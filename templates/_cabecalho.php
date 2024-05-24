@@ -18,7 +18,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/smartcash_prof/auth/auth.php';
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
     <header class="navbar sticky-top bg-dark flex-md-nowrap shadow">
         <a class="navbar-brand col-md-3 col-lg-2 me-0 px-3 fs-6 text-white" href="#">SmartCash</a>
 
@@ -35,7 +35,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/smartcash_prof/auth/auth.php';
         </ul>
     </header>
 
-    <section class="container-fluid">
+    <section class="container-fluid flex-grow-1">
         <div class="row">
             <nav class="sidebar border border-right col-md-3 col-lg-2 p-0 bg-body-tertiary">
                 <div class="offcanvas-md offcanvas-end bg-body-tertiary" tabindex="-1" id="sidebarMenu" aria-labelledby="sidebarMenuLabel">
